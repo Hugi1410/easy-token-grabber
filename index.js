@@ -6,9 +6,9 @@ const superagent = require("superagent");
 console.clear();
 
 console.log(`\n\n                                    Bonjour ${os.hostname}                                    \n\n`);
-console.log(`\n\n                                    Fix by Daskill                                    \n\n`);
+console.log("                                        Dev by daskill                                                 ");
 var webhook = rs.question("Webhook: ");
-if (!webhook) return console.clear(), console.log("Veuillez spécifier le webhook."), rs.question("Webhook: ");
+if (!webhook) console.clear(), console.log("Veuillez spécifier le webhook."), rs.question("Webhook: ");
 
 
 superagent.get(webhook).then(res => {
